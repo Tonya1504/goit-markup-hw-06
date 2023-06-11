@@ -794,7 +794,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
@@ -883,7 +883,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
@@ -892,7 +892,6 @@ img {
 .modal-check:checked + .check-text span {
   background-color: #404bbf;
   border: none;
-  border: 1px solid #404bbf;
   border-radius: 2px;
   fill: #f4f4fd;
 }
@@ -951,7 +950,7 @@ img {
   margin-left: 16px;
 }
 
-.footer-btn-block {
+.footer-form {
   display: flex;
   margin-left: 80px;
   gap: 24px;
