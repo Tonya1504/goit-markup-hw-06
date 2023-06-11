@@ -844,6 +844,7 @@ img {
 .modal-comment:hover,
 .modal-comment:focus {
   border: 1px solid #4d5ae5;
+  color: black;
 }
 
 .modal-comment::placeholder {
