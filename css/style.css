@@ -902,6 +902,15 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
 }
 
 .footer-input-title {
@@ -925,7 +934,7 @@ img {
 }
 
 .footer-btn {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -933,6 +942,13 @@ img {
   padding: 8px 24px;
   border-radius: 4px;
   transition: color backgraund fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
 }
 
 .footer-btn:hover,
